@@ -5,6 +5,106 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
+    <link
+      rel="stylesheet"
+      href="./fonts/fonts.css">
+    <link
+      rel="stylesheet"
+      href="./styles/global.css">
+    <link
+      rel="stylesheet"
+      href="./styles/style.css">
   </head>
-  <body></body>
+  <body>
+    <header class="header content-section">
+      <nav class="header__menu">
+        <ul class="header__links-list">
+          <li class="header__links-list-item header__links-list-item_no-bullit">
+            <a class="header__link_active">главная</a>
+          </li>
+          <li class="header__links-list-item">
+            <a class="header__link" href="#0">посмотреть лоты</a>
+          </li>
+          <li class="header__links-list-item">
+            <a class="header__link" href="#0">об аукционе</a>
+          </li>
+        </ul>
+      </nav>
+      <a class="header__logo">
+        <img 
+          class="header__logo-image"
+          src="./images/logo-black.svg"
+          alt="картинка логотипа"
+        >
+      </a>
+      <address class="address">
+        <a class="header__address" href="tel:+9999535555">
+          +9 999 555 5555
+        </a>
+        <a class="header__address" href="mailto:info@sobaka.ge">
+          info@sobaka.ge
+        </a>
+        <p>
+          наб. Принсенграхт 263-
+          <br>
+          265, Амстердам
+          </br>
+        </p>
+
+      </address>
+      </div>
+    </header>
+    <main class="content-section">
+      <section class="cover">
+        <div class="overlay">
+          <h1 class="cover__title">
+              <span class="aligned-text">
+                О<span class="letter-spacing-extended">НО</span>
+              </span>
+              <span class="aligned-text_center">
+                ТЕ<span class="letter-spacing-extended">БЕ
+                </span>
+              </span>
+              <span class="aligned-text_right">
+                Н<span class="no-letter-spacing">АДО</span>
+              </span>
+          </h1>
+        </div>
+        <div class="cover__description">
+          <p class="cover__description-text">
+            АУКЦИОН ВЕЩЕЙ, В КОТОРЫЕ НИКТО НЕ ВЕРИЛ
+          </p>
+          <button class="bet-button">
+            СДЕЛАТЬ СТАВКУ
+          </button>
+        </div>
+      </section>
+      <section class="lots">
+        <h2 class="lots__heading">
+          ЛОТЫ
+        </h2>
+        <ul class="lots__card-list">
+          <li class="lots__card-list-item">
+            <a class="card-link">
+              <article class="card card_type_film">
+                <div class="overlay">
+                  <h3 class="card__title">
+                    ФИЛЬМ РЕЖИССЁРА, КОТОРЫЙ БРОСИЛ КИНОШКОЛУ
+                  </h3>
+                  <p class="card__text">
+                    Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?
+                  </p>
+                </div>
+              </article>
+            </a>
+          </li>
+        </ul>
+        <a class="lots__look-more-link">
+          посмотреть больше
+        </a>
+      </section>
+      <section class="about"></section>
+    </main>
+    <footer class="footer content-section"></footer>
+  </body>
 </html>
